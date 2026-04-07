@@ -59,10 +59,6 @@ body {
   color: #682dbf;
 }
 
-.header__portal--desktop {
-  display: inline-block;
-}
-
 /* NAV */
 
 .nav {
@@ -305,11 +301,13 @@ body {
 }
 
 @media (max-width: 768px) {
+  .header__actions a {
+    display: none;
+  }
   .menu-toggle {
     display: flex;
   }
 
-  /* ESCONDE NAV DESKTOP */
   .nav {
     position: fixed;
     inset: 0 auto 0 0;
@@ -342,20 +340,6 @@ body {
 
   .nav__list a::after {
     background: #fff;
-  }
-
-  .header__portal--desktop {
-    display: none;
-  }
-
-  .nav__portal {
-    margin-top: 20px;
-  }
-
-  .nav__portal a {
-    display: block;
-    padding: 10px 0;
-    font-weight: 600;
   }
 
   .hero {
