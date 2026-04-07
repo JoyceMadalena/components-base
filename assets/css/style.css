@@ -104,6 +104,10 @@ body {
   width: 100%;
 }
 
+.nav__portal {
+  display: none;
+}
+
 /* HAMBURGER */
 
 .menu-toggle {
@@ -340,6 +344,10 @@ body {
 
   .nav__list a::after {
     background: #fff;
+  }
+
+  .nav__portal {
+    display: block;
   }
 
   .hero {
