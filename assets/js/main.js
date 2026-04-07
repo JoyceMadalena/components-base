@@ -9,9 +9,9 @@ function loadComponent(id, file) {
 
 // inicialização
 document.addEventListener("DOMContentLoaded", () => {
-  loadComponent("header", "/partials/header.html");
-  loadComponent("hero", "/partials/hero.html");
-  loadComponent("aboutfirst", "/partials/aboutfirst.html");
-  loadComponent("aboutsecond", "/partials/aboutsecond.html");
-  loadComponent("footer", "/partials/footer.html");
+  loadComponent("header", "partials/header.html");
+  loadComponent("hero", "partials/hero.html");
+  loadComponent("aboutfirst", "partials/aboutfirst.html");
+  loadComponent("aboutsecond", "partials/aboutsecond.html");
+  loadComponent("footer", "partials/footer.html");
 });
