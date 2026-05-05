@@ -50,7 +50,7 @@ Este projeto foi pensado especialmente para:
 
 ##  Próximos passos (evolução do projeto)
 
-Este projeto foi desenvolvido inicialmente com HTML, CSS e JavaScript puro, mas pode evoluir para uma versão mais robusta utilizando React ⚛️.
+Este projeto foi desenvolvido inicialmente com HTML, CSS e JavaScript puro, mas pode evoluir para uma versão mais robusta utilizando React.
 
 Possíveis melhorias:
 
